@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "593101861554",
+    "firebase_url": "https://tsfchat-1543905603819.firebaseio.com",
+    "project_id": "tsfchat-1543905603819",
+    "storage_bucket": "tsfchat-1543905603819.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593101861554:android:6bb521d125746efc",
+        "android_client_info": {
+          "package_name": "com.videocall.tsfchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593101861554-kq8t8gok6je4df1u2ocj4n0t1v1lvl7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.videocall.tsfchat",
+            "certificate_hash": "e45ce6df9500fe6c687a60498b6a1f40dac66703"
+          }
+        },
+        {
+          "client_id": "593101861554-601dr4nhruerniiipiqqo6t08o4mf4lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhx4WhFsNwzBrMHRpyKa6sSQpjsWQYHrQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593101861554-601dr4nhruerniiipiqqo6t08o4mf4lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

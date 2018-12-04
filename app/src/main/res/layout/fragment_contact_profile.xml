@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:id="@+id/contact_picture"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:padding="16dp"
+        android:background="@color/qiscus_white"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/orangeIcon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/contact_display_name"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textAllCaps="true"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/orangeIcon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/contact_user_email"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/startChat"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/send_message"
+            android:src="@drawable/ic_new_chat"/>
+        <TextView
+            android:id="@+id/send_message"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/qiscus_white"
+            android:text="Send Message"/>
+    </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

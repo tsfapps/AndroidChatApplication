@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:gravity="center_vertical">
+
+    <FrameLayout
+        android:id="@+id/imageViewFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp">
+
+        <com.qiscus.sdk.ui.view.QiscusCircularImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_default_avatar" />
+
+        <com.qiscus.sdk.ui.view.QiscusCircularImageView
+            android:id="@+id/imageViewCheck"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_check"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_toEndOf="@+id/imageViewFrame"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp" />
+
+</RelativeLayout>

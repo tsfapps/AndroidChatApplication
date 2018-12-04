@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.qiscus.chat.sample.ui.homepagetab.ProfileActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <com.qiscus.sdk.ui.view.QiscusCircularImageView
+                android:layout_width="97dp"
+                android:layout_height="97dp"
+                android:layout_margin="16dp"
+                android:id="@+id/single_avatar"
+                android:src="@drawable/ic_default_avatar"
+                />
+            <ProgressBar
+                android:id="@+id/upload_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>
+            <com.qiscus.sdk.ui.view.QiscusCircularImageView
+                android:id="@+id/upload_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom|right"
+                android:layout_marginBottom="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/ic_upload"
+                android:tint="#C4C4C4"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Display Name"
+
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/orangeIcon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Display Name"
+                android:id="@+id/profile_display_name"/>
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UNIQUE ID"
+
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/orangeIcon"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User ID"
+                android:id="@+id/profile_user_id"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/underline"
+        android:background="@color/underlineGrey"
+        android:layout_height="0.0001dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_logout"
+            android:id="@+id/logout_button"
+            android:tint="@color/qiscus_red"
+/>
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:id="@+id/logout_text"
+            android:textColor="@color/qiscus_red"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+        <View
+            android:id="@+id/underlineSecond"
+            android:background="@color/underlineGrey"
+            android:layout_height="0.0001dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+    </LinearLayout>
+</FrameLayout>

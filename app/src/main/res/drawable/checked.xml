@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <corners android:radius="1dp" />
+
+                    <gradient
+                        android:startColor="#E52ACB6E"
+                        android:centerColor="#E52ACB6E"
+                        android:endColor="#E52ACB6E"
+                        android:angle="270" />
+                    <size
+                        android:width="50dp"
+                        android:height="50dp"  />
+                </shape>
+
+            </item>
+            <item
+             android:drawable="@drawable/ic_check"
+             android:height="45dp"
+             android:width="45dp">
+
+            </item>
+        </layer-list>
+    </item>
+</selector>

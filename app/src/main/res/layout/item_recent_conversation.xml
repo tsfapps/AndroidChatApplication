@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/textViewRoomName"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/imageViewRoomAvatar"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="18sp" />
+
+    <com.qiscus.sdk.ui.view.QiscusCircularImageView
+        android:id="@+id/imageViewRoomAvatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewLastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/underline"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_toEndOf="@+id/imageViewRoomAvatar"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textViewRoomTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textViewRoomName"
+        android:layout_alignParentEnd="true"
+        android:text="1:00 PM" />
+
+    <View
+        android:id="@+id/underline"
+        android:layout_width="fill_parent"
+        android:layout_height="0.001dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/underlineGrey" />
+
+    <FrameLayout
+        android:id="@+id/unreadCounterFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/underline"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp">
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circle_yellow" />
+
+        <TextView
+            android:id="@+id/unreadCounterView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="5"
+
+            />
+    </FrameLayout>
+
+</RelativeLayout>
