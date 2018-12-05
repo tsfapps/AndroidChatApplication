@@ -7,12 +7,7 @@ import com.qiscus.sdk.service.QiscusFirebaseService;
 
 import java.util.Map;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class FirebaseService extends QiscusFirebaseService {
 
     @Override

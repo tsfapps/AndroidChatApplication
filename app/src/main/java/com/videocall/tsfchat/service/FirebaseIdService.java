@@ -5,12 +5,7 @@ import android.util.Log;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.qiscus.sdk.service.QiscusFirebaseIdService;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class FirebaseIdService extends QiscusFirebaseIdService {
     @Override
     public void onTokenRefresh() {

@@ -17,9 +17,7 @@ import com.videocall.tsfchat.data.repository.ChatRoomRepository;
 import com.videocall.tsfchat.ui.homepagetab.HomePageTabActivity;
 import com.videocall.tsfchat.util.ChatRoomNavigator;
 
-/**
- * Created by omayib on 05/11/17.
- */
+
 public class ChatWithStrangerDialogFragment extends DialogFragment {
     private EditText editText;
 

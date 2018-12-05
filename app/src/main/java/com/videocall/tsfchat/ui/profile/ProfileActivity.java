@@ -31,7 +31,6 @@ public class ProfileActivity extends AppCompatActivity implements ProfilePresent
 
     private static final int REQUEST_CODE_TAKE_PICTURE = 11;
     private static final int REQUEST_CODE_CHOOSE_PICTURE = 12;
-
     private TextView displayName;
     private TextView userId;
     private ImageView picture;

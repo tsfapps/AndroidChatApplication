@@ -10,12 +10,7 @@ import com.videocall.tsfchat.ui.common.OnItemClickListener;
 import com.videocall.tsfchat.ui.common.SortedRecyclerViewAdapter;
 import com.qiscus.sdk.chat.core.data.model.QiscusChatRoom;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class RecentConversationAdapter extends SortedRecyclerViewAdapter<QiscusChatRoom, RecentConversationViewHolder> {
 
     private Context context;

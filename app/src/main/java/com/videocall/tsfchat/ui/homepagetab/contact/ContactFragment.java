@@ -23,9 +23,7 @@ import com.videocall.tsfchat.ui.privatechatcreation.ContactDialogProfileFragment
 
 import java.util.List;
 
-/**
- * Created by asyrof on 17/11/17.
- */
+
 public class ContactFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener, ContactPresenter.View {
     private static final String TAG = "PrivateChatCreationActivity";
     private ContactAdapter adapter;

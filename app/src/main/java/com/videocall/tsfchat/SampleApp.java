@@ -11,9 +11,6 @@ import com.videocall.tsfchat.util.Configuration;
 import com.qiscus.sdk.Qiscus;
 import com.qiscus.sdk.data.model.QiscusReplyPanelConfig;
 
-/**
- * Created by omayib on 18/09/17.
- */
 public class SampleApp extends Application {
     private static SampleApp INSTANCE;
 

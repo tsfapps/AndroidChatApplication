@@ -7,12 +7,6 @@ import com.videocall.tsfchat.data.repository.UserRepository;
 import com.videocall.tsfchat.data.repository.impl.ChatRoomRepositoryImpl;
 import com.videocall.tsfchat.data.repository.impl.UserRepositoryImpl;
 
-/**
- * Created on : January 30, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public class AppComponent {
     private final UserRepository userRepository;
     private final ChatRoomRepository chatRoomRepository;

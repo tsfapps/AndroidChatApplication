@@ -9,12 +9,6 @@ import com.videocall.tsfchat.R;
 import com.videocall.tsfchat.ui.common.OnItemClickListener;
 import com.videocall.tsfchat.ui.common.SortedRecyclerViewAdapter;
 
-/**
- * Created on : May 17, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public class ContactAdapter extends SortedRecyclerViewAdapter<SelectableUser, ContactViewHolder> {
     private Context context;
     private OnItemClickListener onItemClickListener;

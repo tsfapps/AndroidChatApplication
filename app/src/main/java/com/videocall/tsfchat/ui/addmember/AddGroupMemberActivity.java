@@ -29,12 +29,7 @@ import com.qiscus.sdk.chat.core.data.model.QiscusRoomMember;
 
 import java.util.List;
 
-/**
- * Created on : May 17, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class AddGroupMemberActivity extends AppCompatActivity implements AddGroupMemberPresenter.View {
     protected static final String CHAT_ROOM_DATA = "chat_room_data";
     protected QiscusChatRoom qiscusChatRoom;

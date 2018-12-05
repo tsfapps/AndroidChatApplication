@@ -23,12 +23,7 @@ import org.json.JSONObject;
 
 import java.text.SimpleDateFormat;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class RecentConversationViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private TextView itemName;
     private ImageView picture;

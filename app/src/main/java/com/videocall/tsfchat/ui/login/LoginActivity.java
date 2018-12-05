@@ -33,7 +33,6 @@ public class LoginActivity extends AppCompatActivity implements LoginPresenter.V
 
         LoginPresenter loginPresenter = new LoginPresenter(this,
                 SampleApp.getInstance().getComponent().getUserRepository());
-
         loginButton.setOnClickListener(v -> {
             if (TextUtils.isEmpty(name.getText().toString())) {
                 name.setError("Must not empty!");

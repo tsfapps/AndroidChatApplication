@@ -7,9 +7,6 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import com.videocall.tsfchat.ui.homepagetab.contact.ContactFragment;
 import com.videocall.tsfchat.ui.homepagetab.recentconversation.RecentConversationFragment;
 
-/**
- * Created by asyrof on 17/11/17.
- */
 public class PagerAdapter extends FragmentStatePagerAdapter {
     private int mNumOfTabs;
 

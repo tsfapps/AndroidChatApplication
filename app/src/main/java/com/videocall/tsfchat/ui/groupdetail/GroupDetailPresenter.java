@@ -4,12 +4,7 @@ import com.videocall.tsfchat.data.model.User;
 import com.videocall.tsfchat.data.repository.ChatRoomRepository;
 import com.qiscus.sdk.chat.core.data.model.QiscusChatRoom;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class GroupDetailPresenter {
     private View view;
     private ChatRoomRepository chatRoomRepository;

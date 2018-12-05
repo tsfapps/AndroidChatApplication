@@ -25,12 +25,6 @@ import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-/**
- * Created on : January 30, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public class UserRepositoryImpl implements UserRepository {
 
     private SharedPreferences sharedPreferences;

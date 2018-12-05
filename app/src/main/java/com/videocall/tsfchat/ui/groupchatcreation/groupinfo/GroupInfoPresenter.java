@@ -1,5 +1,7 @@
 package com.videocall.tsfchat.ui.groupchatcreation.groupinfo;
 
+import android.annotation.SuppressLint;
+
 import com.videocall.tsfchat.data.model.User;
 import com.videocall.tsfchat.data.repository.ChatRoomRepository;
 import com.qiscus.sdk.chat.core.data.model.QiscusChatRoom;
@@ -22,6 +24,7 @@ public class GroupInfoPresenter {
         this.chatRoomRepository = chatRoomRepository;
     }
 
+    @SuppressLint("RestrictedApi")
     public void createGroup(String name, List<User> members) {
         view.showLoading();
         chatRoomRepository.createGroupChatRoom(name, members,

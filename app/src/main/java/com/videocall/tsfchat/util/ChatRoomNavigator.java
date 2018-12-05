@@ -11,9 +11,7 @@ import com.qiscus.sdk.chat.core.data.model.QiscusComment;
 import com.qiscus.sdk.chat.core.util.QiscusAndroidUtil;
 import com.qiscus.sdk.ui.QiscusChatActivity;
 
-/**
- * Created by catur on 1/11/18.
- */
+
 public final class ChatRoomNavigator {
 
     public static ChatRoomActivityBuilder openChatRoom(Context context, QiscusChatRoom qiscusChatRoom) {

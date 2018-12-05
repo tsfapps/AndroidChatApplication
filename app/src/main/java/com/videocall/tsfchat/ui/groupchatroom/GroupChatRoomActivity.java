@@ -17,12 +17,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class GroupChatRoomActivity extends QiscusGroupChatActivity {
     private static final int RC_MODIFY_GROUP = 123;
 

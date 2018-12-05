@@ -22,9 +22,6 @@ import com.qiscus.sdk.ui.QiscusChatActivity;
 
 import java.util.List;
 
-/**
- * Created by asyrof on 17/11/17.
- */
 public class RecentConversationFragment extends Fragment implements RecentConversationPresenter.View, SwipeRefreshLayout.OnRefreshListener {
     private SwipeRefreshLayout swipeRefreshLayout;
     private LinearLayout emptyRoomView;

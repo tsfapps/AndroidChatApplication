@@ -5,12 +5,7 @@ import android.support.v7.widget.RecyclerView;
 
 import java.util.List;
 
-/**
- * Created on : January 31, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public abstract class SortedRecyclerViewAdapter<Item, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
 
     private SortedList<Item> data = new SortedList<>(getItemClass(), new SortedList.Callback<Item>() {

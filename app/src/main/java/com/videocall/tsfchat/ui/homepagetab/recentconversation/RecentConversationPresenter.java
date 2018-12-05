@@ -10,12 +10,7 @@ import org.greenrobot.eventbus.Subscribe;
 import java.util.List;
 
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class RecentConversationPresenter {
     private View view;
     private ChatRoomRepository chatRoomRepository;

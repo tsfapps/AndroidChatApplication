@@ -10,12 +10,6 @@ import com.videocall.tsfchat.ui.common.OnItemClickListener;
 import com.qiscus.nirmana.Nirmana;
 import com.qiscus.sdk.chat.core.data.model.QiscusRoomMember;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public class MemberViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private TextView nameTextView;
     private ImageView avatarImageView;

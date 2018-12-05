@@ -7,12 +7,6 @@ import com.qiscus.sdk.chat.core.data.remote.QiscusApi;
 
 import java.util.List;
 
-/**
- * Created on : January 30, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public interface UserRepository {
 
     void login(String name, String email, String password, Action<User> onSuccess, Action<Throwable> onError);

@@ -19,9 +19,6 @@ import com.videocall.tsfchat.ui.homepagetab.HomePageTabActivity;
 import com.videocall.tsfchat.util.ChatRoomNavigator;
 import com.qiscus.nirmana.Nirmana;
 
-/**
- * Created by asyrof on 18/12/17.
- */
 public class ContactDialogProfileFragment extends DialogFragment {
     private static final String USER_KEY = "USER_KEY";
 

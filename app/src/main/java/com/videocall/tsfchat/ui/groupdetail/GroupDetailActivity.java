@@ -27,12 +27,7 @@ import com.qiscus.sdk.chat.core.data.model.QiscusAccount;
 import com.qiscus.sdk.chat.core.data.model.QiscusChatRoom;
 import com.qiscus.sdk.chat.core.data.model.QiscusRoomMember;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class GroupDetailActivity extends AppCompatActivity implements GroupDetailPresenter.View {
     protected static final String CHAT_ROOM_DATA = "chat_room_data";
     private static final int RC_ADD_PARTICIPANTS = 3;

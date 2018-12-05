@@ -23,9 +23,7 @@ import com.videocall.tsfchat.ui.groupchatcreation.GroupChatCreationActivity;
 
 import java.util.List;
 
-/**
- * Created by omayib on 18/09/17.
- */
+
 public class PrivateChatCreationActivity extends AppCompatActivity implements PrivateChatCreationPresenter.View {
     public static String GROUP_CHAT_ID = "GROUP_CHAT_ID";
     public static String STRANGER_CHAT_ID = "STRANGER_CHAT_ID";

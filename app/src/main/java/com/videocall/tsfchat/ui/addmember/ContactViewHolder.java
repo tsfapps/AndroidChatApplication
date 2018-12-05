@@ -11,12 +11,7 @@ import com.videocall.tsfchat.data.model.User;
 import com.videocall.tsfchat.ui.common.OnItemClickListener;
 import com.qiscus.nirmana.Nirmana;
 
-/**
- * Created on : May 17, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
+
 public class ContactViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
     private TextView itemName;
     private ImageView picture;

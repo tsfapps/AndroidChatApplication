@@ -1,5 +1,6 @@
 package com.videocall.tsfchat;
 
+import android.annotation.SuppressLint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -18,12 +19,13 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
-        textView.setText("Hello Tousif Akram");
+        textView.setText("Hello Tousif Akram tousifranchwi@gmail.com");
     }
 }

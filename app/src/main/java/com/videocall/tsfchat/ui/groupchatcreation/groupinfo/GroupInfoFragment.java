@@ -30,13 +30,10 @@ public class GroupInfoFragment extends Fragment implements GroupInfoPresenter.Vi
     private static final String CONTACT_KEY = "CONTACT_KEY";
     private static final String selectMore = "select at least one";
     private static final String groupNameFormat = "Please input group name";
-
     private RecyclerView recyclerView;
     private ProgressDialog progressDialog;
     private EditText groupNameView;
-
     private GroupInfoPresenter presenter;
-
     private List<User> contacts;
 
     public static GroupInfoFragment newInstance(List<User> contacts) {

@@ -14,7 +14,7 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        int splashInterval = 10;
+        int splashInterval = 5;
         new Handler().postDelayed(() -> {
             if (!Qiscus.hasSetupUser()) {
                 startActivity(new Intent(SplashActivity.this, LoginActivity.class));

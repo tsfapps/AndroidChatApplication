@@ -17,7 +17,6 @@ public class SelectableUser implements Parcelable {
         user = in.readParcelable(User.class.getClassLoader());
         selected = in.readByte() != 0;
     }
-
     public static final Creator<SelectableUser> CREATOR = new Creator<SelectableUser>() {
         @Override
         public SelectableUser createFromParcel(Parcel in) {

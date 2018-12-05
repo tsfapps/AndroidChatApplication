@@ -6,12 +6,6 @@ import com.qiscus.sdk.chat.core.data.model.QiscusChatRoom;
 
 import java.util.List;
 
-/**
- * Created on : January 31, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public interface ChatRoomRepository {
     void getChatRoom(long roomId, Action<QiscusChatRoom> onSuccess, Action<Throwable> onError);
 

@@ -25,10 +25,6 @@ import com.videocall.tsfchat.ui.groupchatcreation.groupinfo.GroupInfoFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by omayib on 05/11/17.
- */
-
 public class GroupChatCreationActivity extends AppCompatActivity implements GroupChatCreationPresenter.View {
     private static final String TAG = "GroupChatCreationActivity";
     private RecyclerView selectedContactRecyclerView;

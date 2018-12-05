@@ -3,12 +3,6 @@ package com.videocall.tsfchat.ui.profile;
 import com.videocall.tsfchat.data.model.User;
 import com.videocall.tsfchat.data.repository.UserRepository;
 
-/**
- * Created on : May 16, 2018
- * Author     : zetbaitsu
- * Name       : Zetra
- * GitHub     : https://github.com/zetbaitsu
- */
 public class ProfilePresenter {
     private View view;
     private UserRepository userRepository;
